@@ -6,12 +6,12 @@
 #    By: ogdurkan <ogdurkan@student.42kocaeli.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/11 14:33:37 by ogdurkan          #+#    #+#              #
-#    Updated: 2022/12/11 14:33:49 by ogdurkan         ###   ########.fr        #
+#    Updated: 2022/12/24 18:09:00 by ogdurkan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
-LIBFT = libft
+LIBFT = Libft
 
 all: $(NAME)
 		gcc server.c $(NAME) -o server
